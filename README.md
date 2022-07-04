@@ -13,7 +13,7 @@ import { shadowcreator } from 'shadow-creator';
 
 shadowcreator({
     shadow_type: 'soft',
-    padding: false
+    padding: "10px"
 });
 ```
 
