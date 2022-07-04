@@ -11,7 +11,9 @@ function shadowcreator(options) {
         image.style.boxShadow = `10px 10px ${options.shadow_type} 1px rgba(0,0,0,0.12)`;
 
         if(options.padding){
-            image.style.padding = '1em';
+            image.style.padding = options.padding;
+        }else {
+            image.style.padding = "0px";
         }
 
     })
